@@ -7,10 +7,66 @@
   </head>
   <body class="antialiased flex flex-col bg-white justify-center min-h-screen">
     <header
-      class="flex items-center justify-between px-4 py-4 shadow text-gray-900 sticky top-0 bg-white"
+      id="header"
+      class="shadow sticky top-0 text-gray-900 bg-white flex-col"
     >
-      <a href="/"><img src="./img/claro.png" class="h-12 object-contain" /></a>
-      <nav class="space-x-4 flex items-center">
+      <div class="flex items-center justify-between px-4 py-4">
+        <a href="/"
+          ><img src="./img/claro.png" class="h-12 object-contain"
+        /></a>
+        <button
+          id="menuBtn"
+          class="sm:hidden text-orange-600 focus:outline-none"
+          type="button"
+          onclick="navToggle();"
+        >
+          <!-- menu icon -->
+          <svg
+            id="menuIcon"
+            class="fill-current w-8 h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+          <!-- Close icon -->
+          <svg
+            id="closeIcon"
+            class="hidden fill-current w-8 h-8"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <nav id="navMenu" class="hidden space-x-4 sm:block items-center">
+          <a class="hover:text-orange-600 text-xl" href="/">Home</a>
+          <a class="hover:text-orange-600 text-xl" href="./html/product.html"
+            >Produkte</a
+          >
+          <a class="hover:text-orange-600 text-xl" href="./html/contact.html"
+            >Kontakt</a
+          >
+        </nav>
+      </div>
+      <nav
+        id="navMenuMobile"
+        class="hidden flex-col items-center pb-4 flex-grow"
+      >
         <a class="hover:text-orange-600 text-xl" href="/">Home</a>
         <a class="hover:text-orange-600 text-xl" href="./html/product.html"
           >Produkte</a
@@ -23,7 +79,7 @@
     <main class="flex-grow">
       <div class="px-4 py-4 text-center text-gray-900">
         <span class="text-3xl font-semibold"
-          >Ihr Laden für Fairtrade in <br>
+          >Ihr Laden für Fairtrade in <br />
           <span class="text-orange-600">Altstätten SG</span></span
         >
       </div>
