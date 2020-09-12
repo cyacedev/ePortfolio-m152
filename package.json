@@ -1,24 +1,25 @@
 {
-  "name": "claro-webportfolio",
-  "version": "1.0.0",
-  "main": "index.html",
-  "repository": "https://github.com/cyacedev/claro-webportfolio.git",
-  "author": "cyacedev <github@cyace.dev>",
-  "license": "MIT",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "autoprefixer": "^9.8.6",
-    "browser-sync": "^2.26.12",
-    "cross-env": "^7.0.2",
-    "cssnano": "^4.1.10",
-    "postcss": "^7.0.32",
-    "tailwindcss": "^1.8.6",
-    "watch": "^1.0.2"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "build:dev": "cross-env NODE_ENV=development postcss css/tailwind.css -o static/css/tailwind.css",
-    "build:deploy": "cross-env NODE_ENV=production postcss css/tailwind.css -o static/css/tailwind.css",
-    "sync": "yarn browser-sync start --server --files \".\""
-  }
+    "name": "claro-webportfolio",
+    "version": "1.0.0",
+    "main": "index.html",
+    "repository": "https://github.com/cyacedev/claro-webportfolio.git",
+    "author": "cyacedev <github@cyace.dev>",
+    "license": "MIT",
+    "dependencies": {
+        "@fullhuman/postcss-purgecss": "^2.3.0",
+        "autoprefixer": "^9.8.6",
+        "browser-sync": "^2.26.12",
+        "cross-env": "^7.0.2",
+        "cssnano": "^4.1.10",
+        "postcss": "^7.0.32",
+        "postcss-cli": "^7.1.2",
+        "tailwindcss": "^1.8.6",
+        "watch": "^1.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build:dev": "yarn cross-env NODE_ENV=development yarn postcss css/tailwind.css -o static/css/tailwind.css",
+        "build:deploy": "yarn cross-env NODE_ENV=production yarn postcss css/tailwind.css -o static/css/tailwind.css",
+        "sync": "yarn browser-sync start --server --files \".\""
+    }
 }
