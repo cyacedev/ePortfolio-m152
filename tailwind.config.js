@@ -8,8 +8,5 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: [
-    './html/*.html',
-    'index.html',
-  ],
-}
+  purge: ["./html/*.html", "index.html"],
+};
