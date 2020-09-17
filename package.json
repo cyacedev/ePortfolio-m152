@@ -5,8 +5,9 @@
   "repository": "https://github.com/cyacedev/claro-webportfolio.git",
   "author": "cyacedev <github@cyace.dev>",
   "license": "MIT",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
     "autoprefixer": "^10.0.0",
     "browser-sync": "^2.26.12",
     "cross-env": "^7.0.2",
@@ -16,10 +17,9 @@
     "tailwindcss": "^1.8.6",
     "watch": "^1.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "build:dev": "yarn cross-env NODE_ENV=development yarn postcss css/tailwind.css -o static/css/tailwind.css",
-    "build:deploy": "yarn cross-env NODE_ENV=production yarn postcss css/tailwind.css -o static/css/tailwind.css",
+    "build:prod": "yarn cross-env NODE_ENV=production yarn postcss css/tailwind.css -o static/css/tailwind.css",
     "sync": "yarn browser-sync start --server --files \".\""
   }
 }

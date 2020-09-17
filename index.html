@@ -5,25 +5,25 @@
     <link rel="stylesheet" href="./static/css/tailwind.css" />
     <script src="./src/index.js"></script>
   </head>
-  <body class="antialiased flex flex-col bg-white justify-center min-h-screen">
+  <body class="flex flex-col justify-center min-h-screen antialiased bg-white">
     <header
       id="header"
-      class="shadow sticky top-0 text-gray-900 bg-white flex-col"
+      class="sticky top-0 flex-col text-gray-900 bg-white shadow"
     >
       <div class="flex items-center justify-between px-4 py-4">
         <a href="/"
-          ><img src="./img/claro.png" class="h-12 object-contain"
+          ><img src="./img/claro.png" class="object-contain h-12"
         /></a>
         <button
           id="menuBtn"
-          class="sm:hidden text-orange-600 focus:outline-none"
+          class="text-orange-600 sm:hidden focus:outline-none"
           type="button"
           onclick="navToggle();"
         >
           <!-- menu icon -->
           <svg
             id="menuIcon"
-            class="fill-current w-8 h-8"
+            class="w-8 h-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -39,7 +39,7 @@
           <!-- Close icon -->
           <svg
             id="closeIcon"
-            class="hidden fill-current w-8 h-8"
+            class="hidden w-8 h-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -53,54 +53,52 @@
             />
           </svg>
         </button>
-        <nav id="navMenu" class="hidden space-x-4 sm:block items-center">
-          <a class="hover:text-orange-600 text-xl" href="/">Home</a>
-          <a class="hover:text-orange-600 text-xl" href="./html/product.html"
+        <nav id="navMenu" class="items-center hidden space-x-4 sm:block">
+          <a class="text-xl hover:text-orange-600" href="/">Home</a>
+          <a class="text-xl hover:text-orange-600" href="./html/product.html"
             >Produkte</a
           >
-          <a class="hover:text-orange-600 text-xl" href="./html/contact.html"
+          <a class="text-xl hover:text-orange-600" href="./html/contact.html"
             >Kontakt</a
           >
         </nav>
       </div>
       <nav
         id="navMenuMobile"
-        class="hidden sm:hidden flex-col items-center pb-4 flex-grow"
+        class="flex-col items-center flex-grow hidden pb-4 sm:hidden"
       >
-        <a class="hover:text-orange-600 text-xl" href="/">Home</a>
-        <a class="hover:text-orange-600 text-xl" href="./html/product.html"
+        <a class="text-xl hover:text-orange-600" href="/">Home</a>
+        <a class="text-xl hover:text-orange-600" href="./html/product.html"
           >Produkte</a
         >
-        <a class="hover:text-orange-600 text-xl" href="./html/contact.html"
+        <a class="text-xl hover:text-orange-600" href="./html/contact.html"
           >Kontakt</a
         >
       </nav>
     </header>
-    <main class="flex-grow">
+    <main class="flex flex-col flex-grow">
       <div class="px-4 py-4 text-center text-gray-900">
         <span class="text-3xl font-semibold"
           >Ihr Laden für Fairtrade in <br />
           <span class="text-orange-600">Altstätten SG</span></span
         >
       </div>
-      <div class="mx-8 px-4 py-4 border rounded sm:flex sm:items-center">
-        <img src="img/placeholder.png" class="sm:h-56 rounded-lg" />
-        <div class="ml-4">
-          <h1 class="text-2xl font-medium text-gray-700">Wer sind wir?</h1>
-          <span
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.</span
-          >
-        </div>
+      <img src="img/placeholder_169.png" class="self-center my-4 center md:h-96" />
+      <div class="px-4 py-4 mx-4 ml-4 border rounded">
+        <h1 class="text-2xl font-medium text-gray-700">Wer sind wir?</h1>
+        <span
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</span
+        >
       </div>
     </main>
     <footer
-      class="min-w-screen border-t-2 border-orange-600 border-dotted text-gray-900 px-2 pt-1 pb-4 flex justify-between"
+      class="flex justify-between px-2 pt-1 pb-4 mt-4 text-gray-900 border-t-2 border-orange-600 border-dotted min-w-screen"
     >
       <div>
         <h2 class="font-bold">Navigation</h2>

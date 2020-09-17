@@ -1,9 +1,13 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        96: "24rem",
+      },
+    },
   },
   variants: {},
-  plugins: [],
+  plugins: [require("@tailwindcss/custom-forms")],
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
