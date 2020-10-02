@@ -5,25 +5,25 @@
     <link rel="stylesheet" href="../static/css/tailwind.css" />
     <script src="../src/index.js"></script>
   </head>
-  <body class="antialiased flex flex-col bg-white justify-center min-h-screen">
+  <body class="flex flex-col justify-center min-h-screen antialiased bg-white">
     <header
       id="header"
-      class="shadow sticky top-0 text-gray-900 bg-white flex-col"
+      class="sticky top-0 flex-col text-gray-900 bg-white shadow"
     >
       <div class="flex items-center justify-between px-4 py-4">
         <a href="/"
-          ><img src="../img/claro.png" class="h-12 object-contain"
+          ><img src="../img/claro.png" class="object-contain h-12"
         /></a>
         <button
           id="menuBtn"
-          class="sm:hidden text-orange-600 focus:outline-none"
+          class="text-orange-600 sm:hidden focus:outline-none"
           type="button"
           onclick="navToggle();"
         >
           <!-- menu icon -->
           <svg
             id="menuIcon"
-            class="fill-current w-8 h-8"
+            class="w-8 h-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -39,7 +39,7 @@
           <!-- Close icon -->
           <svg
             id="closeIcon"
-            class="hidden fill-current w-8 h-8"
+            class="hidden w-8 h-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -53,25 +53,25 @@
             />
           </svg>
         </button>
-        <nav id="navMenu" class="hidden space-x-4 sm:block items-center">
-          <a class="hover:text-orange-600 text-xl" href="/">Home</a>
-          <a class="hover:text-orange-600 text-xl" href="../html/product.html"
+        <nav id="navMenu" class="items-center hidden space-x-4 sm:block">
+          <a class="text-xl link-animation" href="/">Home</a>
+          <a class="text-xl link-animation" href="../html/product.html"
             >Produkte</a
           >
-          <a class="hover:text-orange-600 text-xl" href="../html/contact.html"
+          <a class="text-xl link-animation" href="../html/contact.html"
             >Kontakt</a
           >
         </nav>
       </div>
       <nav
         id="navMenuMobile"
-        class="hidden sm:hidden flex-col items-center pb-4 flex-grow"
+        class="flex-col items-center flex-grow hidden pb-4 sm:hidden"
       >
-        <a class="hover:text-orange-600 text-xl" href="/">Home</a>
-        <a class="hover:text-orange-600 text-xl" href="../html/product.html"
+        <a class="text-xl link-animation" href="/">Home</a>
+        <a class="text-xl link-animation" href="../html/product.html"
           >Produkte</a
         >
-        <a class="hover:text-orange-600 text-xl" href="../html/contact.html"
+        <a class="text-xl link-animation" href="../html/contact.html"
           >Kontakt</a
         >
       </nav>
@@ -90,7 +90,7 @@
       </div>
     </main>
     <footer
-      class="min-w-screen border-t-2 border-orange-600 border-dotted text-gray-900 px-2 pt-1 pb-4 flex justify-between"
+      class="flex justify-between px-2 pt-1 pb-4 text-gray-900 border-t-2 border-orange-600 border-dotted min-w-screen"
     >
       <div>
         <h2 class="font-bold">Navigation</h2>

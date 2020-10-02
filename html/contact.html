@@ -5,25 +5,25 @@
     <link rel="stylesheet" href="../static/css/tailwind.css" />
     <script src="../src/index.js"></script>
   </head>
-  <body class="antialiased flex flex-col bg-white justify-center min-h-screen">
+  <body class="flex flex-col justify-center min-h-screen antialiased bg-white">
     <header
       id="header"
-      class="shadow sticky top-0 text-gray-900 bg-white flex-col"
+      class="sticky top-0 flex-col text-gray-900 bg-white shadow"
     >
       <div class="flex items-center justify-between px-4 py-4">
         <a href="/"
-          ><img src="../img/claro.png" class="h-12 object-contain"
+          ><img src="../img/claro.png" class="object-contain h-12"
         /></a>
         <button
           id="menuBtn"
-          class="sm:hidden text-orange-600 focus:outline-none"
+          class="text-orange-600 sm:hidden focus:outline-none"
           type="button"
           onclick="navToggle();"
         >
           <!-- menu icon -->
           <svg
             id="menuIcon"
-            class="fill-current w-8 h-8"
+            class="w-8 h-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -39,7 +39,7 @@
           <!-- Close icon -->
           <svg
             id="closeIcon"
-            class="hidden fill-current w-8 h-8"
+            class="hidden w-8 h-8 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -53,25 +53,25 @@
             />
           </svg>
         </button>
-        <nav id="navMenu" class="hidden space-x-4 sm:block items-center">
-          <a class="hover:text-orange-600 text-xl" href="/">Home</a>
-          <a class="hover:text-orange-600 text-xl" href="../html/product.html"
+        <nav id="navMenu" class="items-center hidden space-x-4 sm:block">
+          <a class="text-xl link-animation" href="/">Home</a>
+          <a class="text-xl link-animation" href="../html/product.html"
             >Produkte</a
           >
-          <a class="hover:text-orange-600 text-xl" href="../html/contact.html"
+          <a class="text-xl link-animation" href="../html/contact.html"
             >Kontakt</a
           >
         </nav>
       </div>
       <nav
         id="navMenuMobile"
-        class="hidden sm:hidden flex-col items-center pb-4 flex-grow"
+        class="flex-col items-center flex-grow hidden pb-4 sm:hidden"
       >
-        <a class="hover:text-orange-600 text-xl" href="/">Home</a>
-        <a class="hover:text-orange-600 text-xl" href="../html/product.html"
+        <a class="text-xl link-animation" href="/">Home</a>
+        <a class="text-xl link-animation" href="../html/product.html"
           >Produkte</a
         >
-        <a class="hover:text-orange-600 text-xl" href="../html/contact.html"
+        <a class="text-xl link-animation" href="../html/contact.html"
           >Kontakt</a
         >
       </nav>
@@ -79,18 +79,87 @@
     <main class="flex-grow">
       <div class="px-4 py-4 text-center text-gray-900">
         <span class="text-3xl font-semibold">Kontakt</span>
-        <ol>
-          <li>Öffnungszeiten</li>
-          <li>Adresse</li>
-          <li>Telefon</li>
-          <li>E-Mail</li>
-          <li>Karte-Anzeige</li>
-          <li>Formular</li>
-        </ol>
+        <div class="flex flex-row justify-center">
+          <div
+            class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
+          >
+            <div class="mb-8">
+              <div class="mb-2 text-xl font-bold text-gray-900">
+                Unsere Öffnungszeiten
+              </div>
+              <div class="flex flex-row">
+                <div class="mr-2 text-gray-700">
+                  Montag<br />
+                  Dienstag - Freitag<br />
+                  Samstag<br />
+                </div>
+                <div class="ml-2 text-gray-700">
+                  13:30 - 18:00 <br />
+                  09:00 - 11:30 13:30 - 18:00 <br />
+                  09:00 - 14:00 <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
+          >
+            <div class="mb-8">
+              <div class="mb-2 text-xl font-bold text-gray-900">Adresse</div>
+              <p class="text-base text-gray-700">
+                Claro Laden<br />
+                Marktgasse 21<br />
+                9450 Altstätten<br />
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
+          >
+            <div class="mb-8">
+              <div class="mb-2 text-xl font-bold text-gray-900">
+                Kommunikation
+              </div>
+              <p class="text-base text-gray-700">
+                Telefon: 0717556978<br />
+                E-Mail: claro@bluewin.ch
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row justify-center">
+          <div
+            class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
+          >
+            <div class="mb-8">
+              <div class="mb-2 text-xl font-bold text-gray-900">Standort</div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86455.3968322615!2d9.467986355397315!3d47.378165504601135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x174d4210adafe31!2sClaro%20Weltladen!5e0!3m2!1sde!2sch!4v1601623875454!5m2!1sde!2sch"
+                width="600"
+                height="450"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+                class="rounded-lg"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row justify-center">
+          <div
+            class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
+          >
+            <div class="mb-8">
+              <div class="mb-2 text-xl font-bold text-gray-900">Kontaktformular</div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <footer
-      class="min-w-screen border-t-2 border-orange-600 border-dotted text-gray-900 px-2 pt-1 pb-4 flex justify-between"
+      class="flex justify-between px-2 pt-1 pb-4 text-gray-900 border-t-2 border-orange-600 border-dotted min-w-screen"
     >
       <div>
         <h2 class="font-bold">Navigation</h2>
