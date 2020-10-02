@@ -79,80 +79,107 @@
     <main class="flex-grow">
       <div class="px-4 py-4 text-center text-gray-900">
         <span class="text-3xl font-semibold">Kontakt</span>
-        <div class="flex flex-row justify-center">
+        <div class="flex flex-row flex-wrap justify-center">
           <div
             class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
           >
-            <div class="mb-8">
-              <div class="mb-2 text-xl font-bold text-gray-900">
-                Unsere Öffnungszeiten
+            <div class="mb-2 text-xl font-bold text-gray-900">
+              Unsere Öffnungszeiten
+            </div>
+            <div class="flex flex-row">
+              <div class="mr-6 text-gray-700">
+                Montag<br />
+                Dienstag - Freitag<br />
+                Samstag<br />
               </div>
-              <div class="flex flex-row">
-                <div class="mr-2 text-gray-700">
-                  Montag<br />
-                  Dienstag - Freitag<br />
-                  Samstag<br />
-                </div>
-                <div class="ml-2 text-gray-700">
-                  13:30 - 18:00 <br />
-                  09:00 - 11:30 13:30 - 18:00 <br />
-                  09:00 - 14:00 <br />
-                </div>
+              <div class="text-gray-700">
+                13:30 - 18:00 <br />
+                09:00 - 11:30 und 13:30 - 18:00 <br />
+                09:00 - 14:00 <br />
               </div>
             </div>
           </div>
           <div
             class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
           >
-            <div class="mb-8">
-              <div class="mb-2 text-xl font-bold text-gray-900">Adresse</div>
-              <p class="text-base text-gray-700">
-                Claro Laden<br />
-                Marktgasse 21<br />
-                9450 Altstätten<br />
-              </p>
-            </div>
+            <div class="mb-2 text-xl font-bold text-gray-900">Adresse</div>
+            <p class="text-base text-gray-700">
+              Claro Laden<br />
+              Marktgasse 21<br />
+              9450 Altstätten<br />
+            </p>
           </div>
           <div
             class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
           >
-            <div class="mb-8">
-              <div class="mb-2 text-xl font-bold text-gray-900">
-                Kommunikation
-              </div>
-              <p class="text-base text-gray-700">
-                Telefon: 0717556978<br />
-                E-Mail: claro@bluewin.ch
-              </p>
+            <div class="mb-2 text-xl font-bold text-gray-900">
+              Kommunikation
             </div>
+            <p class="text-base text-gray-700">
+              Telefon: 0717556978<br />
+              E-Mail: claro@bluewin.ch
+            </p>
           </div>
         </div>
-        <div class="flex flex-row justify-center">
+        <div class="flex flex-row flex-wrap justify-center">
           <div
             class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
           >
-            <div class="mb-8">
-              <div class="mb-2 text-xl font-bold text-gray-900">Standort</div>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86455.3968322615!2d9.467986355397315!3d47.378165504601135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x174d4210adafe31!2sClaro%20Weltladen!5e0!3m2!1sde!2sch!4v1601623875454!5m2!1sde!2sch"
-                width="600"
-                height="450"
-                frameborder="0"
-                style="border: 0"
-                allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
-                class="rounded-lg"
-              ></iframe>
-            </div>
+            <div class="mb-2 text-xl font-bold text-gray-900">Standort</div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1910.4381288635789!2d9.539040361086647!3d47.377455887909846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x174d4210adafe31!2sClaro%20Weltladen!5e0!3m2!1sde!2sch!4v1601625153945!5m2!1sde!2sch"
+              width="400"
+              height="300"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              class="rounded-lg"
+            ></iframe>
           </div>
-        </div>
-        <div class="flex flex-row justify-center">
-          <div
-            class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
-          >
-            <div class="mb-8">
-              <div class="mb-2 text-xl font-bold text-gray-900">Kontaktformular</div>
+          <div class="flex flex-row justify-center">
+            <div
+              class="p-4 m-4 text-left border-t border-b border-l border-r border-gray-400 rounded"
+            >
+              <div class="mb-2 text-xl font-bold text-gray-900">
+                Kontaktformular
+              </div>
+              <div>
+                <form>
+                  <div class="flex flex-row">
+                    <label class="mr-2">
+                      <span class="text-gray-700">Vorname</span>
+                      <input class="block w-full mt-1 form-input" />
+                    </label>
+                    <label>
+                      <span class="text-gray-700">Name</span>
+                      <input class="block w-full mt-1 form-input" />
+                    </label>
+                  </div>
+                  <label class="block">
+                    <span class="text-gray-700">Telefon</span>
+                    <input class="block w-full mt-1 form-input" />
+                  </label>
+                  <label class="block">
+                    <span class="text-gray-700">E-Mail</span>
+                    <input class="block w-full mt-1 form-input" />
+                  </label>
+                  <label class="block">
+                    <span class="text-gray-700">Nachricht</span>
+                    <textarea
+                      class="block w-full mt-1 form-textarea"
+                      rows="3"
+                    ></textarea>
+                  </label>
+                  <button
+                    class="px-4 py-2 mt-4 font-bold text-orange-600 bg-transparent border border-orange-600 rounded opacity-50 cursor-not-allowed hover:border-transparent hover:text-white hover:bg-orange-500"
+                    disabled="true"
+                    >
+                    Senden
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
