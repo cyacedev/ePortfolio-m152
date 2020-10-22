@@ -1,4 +1,11 @@
 module.exports = {
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+    defaultLineHeights: true,
+    standardFontWeights: true,
+  },
+  purge: [],
   theme: {
     extend: {
       spacing: {
@@ -8,11 +15,4 @@ module.exports = {
   },
   variants: {},
   plugins: [require("@tailwindcss/custom-forms")],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-    defaultLineHeights: true,
-    standardFontWeights: true,
-  },
-  purge: ["./html/*.html", "index.html"],
-};
+}

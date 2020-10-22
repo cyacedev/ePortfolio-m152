@@ -24,6 +24,8 @@ View Changes in Browser:
 
 ## Technologies used
 
+- Vue
+- Vue-Router
 - Yarn
 - TailwindCSS
 - TailwindCSS Custom Forms
