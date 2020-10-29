@@ -1,4 +1,5 @@
 module.exports = {
-  assetsDir: 'assets',
-  runtimeCompiler: true
-}
+  assetsDir: "assets",
+  runtimeCompiler: true,
+  publicPath: "./",
+};
