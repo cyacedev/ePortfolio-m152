@@ -102,7 +102,7 @@
                   <label class="w-full mr-2">
                     <span class="text-gray-700">Vorname</span>
                     <input
-                      class="block w-full mt-1 form-input"
+                      class="block w-full mt-1 rounded form-input focus:ring-0 focus:border-orange-500"
                       required
                       aria-required="true"
                       type="text"
@@ -111,7 +111,7 @@
                   <label class="w-full">
                     <span class="text-gray-700">Name</span>
                     <input
-                      class="block w-full mt-1 form-input"
+                      class="block w-full mt-1 rounded form-input focus:ring-0 focus:border-orange-500"
                       required
                       aria-required="true"
                       type="text"
@@ -121,7 +121,7 @@
                 <label class="block mb-2">
                   <span class="text-gray-700">Telefon</span>
                   <input
-                    class="block w-full mt-1 form-input"
+                    class="block w-full mt-1 rounded form-input focus:ring-0 focus:border-orange-500"
                     required
                     aria-required="true"
                     type="text"
@@ -130,7 +130,7 @@
                 <label class="block mb-2">
                   <span class="text-gray-700">E-Mail</span>
                   <input
-                    class="block w-full mt-1 form-input"
+                    class="block w-full mt-1 rounded form-input focus:ring-0 focus:border-orange-500"
                     required
                     aria-required="true"
                     type="email"
@@ -139,7 +139,7 @@
                 <label class="block mb-2">
                   <span class="text-gray-700">Nachricht</span>
                   <textarea
-                    class="block w-full mt-1 form-textarea"
+                    class="block w-full mt-1 rounded form-textarea focus:ring-0 focus:border-orange-500"
                     rows="3"
                     required
                     aria-required="true"
@@ -153,7 +153,7 @@
                     alt="Captcha"
                   >
                   <input
-                    class="block w-full mt-1 form-input"
+                    class="block w-full mt-1 rounded form-input focus:ring-0 focus:border-orange-500"
                     required
                     aria-required="true"
                     type="text"

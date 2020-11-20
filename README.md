@@ -28,5 +28,5 @@ View Changes in Browser:
 - Vue-Router
 - Yarn
 - TailwindCSS
-- TailwindCSS Custom Forms
+- TailwindCSS Forms
 - PostCSS

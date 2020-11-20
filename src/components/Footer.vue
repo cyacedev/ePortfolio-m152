@@ -8,17 +8,26 @@
       </h2>
       <ul>
         <li>
-          <router-link to="/" class="hover:text-orange-600">
+          <router-link
+            to="/"
+            class="hover:text-orange-600"
+          >
             Home
           </router-link>
         </li>
         <li>
-          <router-link to="/products" class="hover:text-orange-600">
+          <router-link
+            to="/products"
+            class="hover:text-orange-600"
+          >
             Produkte
           </router-link>
         </li>
         <li>
-          <router-link to="/contact" class="hover:text-orange-600">
+          <router-link
+            to="/contact"
+            class="hover:text-orange-600"
+          >
             Kontakt
           </router-link>
         </li>
@@ -30,7 +39,10 @@
       </h2>
       <ul>
         <li>
-          <router-link to="/impressum" class="hover:text-orange-600">
+          <router-link
+            to="/impressum"
+            class="hover:text-orange-600"
+          >
             Impressum
           </router-link>
         </li>
@@ -38,8 +50,7 @@
           <a
             class="hover:text-orange-600"
             href="https://www.facebook.com/claro.weltladen"
-            >FaceBook</a
-          >
+          >FaceBook</a>
         </li>
       </ul>
     </div>

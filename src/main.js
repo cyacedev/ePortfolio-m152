@@ -3,6 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import "./assets/tailwind.css";
 import VueMeta from "vue-meta";
+import './assets/tailwind.css'
 
 Vue.config.productionTip = false;
 

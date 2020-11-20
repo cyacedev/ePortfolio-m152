@@ -35,7 +35,7 @@ export default {
   height: 3px;
   top: 100%;
   left: 0;
-  background: #dd6b20; /* text-orange-600 */
+  @apply bg-orange-600;
   transition: transform 0.5s;
   transform: scaleX(0);
   transform-origin: right;

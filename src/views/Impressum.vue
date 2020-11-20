@@ -13,10 +13,10 @@
             Firma
           </div>
           <p class="text-base text-gray-700">
-            Firmenname: Claro Laden Monika Angst<br />
-            Adresse: Claro Laden, Marktgasse 21, 9450 Altstätten<br />
-            Telefon: 0717556978<br />
-            E-Mail: claro@bluewin.ch<br />
+            Firmenname: Claro Laden Monika Angst<br>
+            Adresse: Claro Laden, Marktgasse 21, 9450 Altstätten<br>
+            Telefon: 0717556978<br>
+            E-Mail: claro@bluewin.ch<br>
           </p>
         </div>
         <div

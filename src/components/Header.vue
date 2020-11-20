@@ -9,7 +9,7 @@
           src="@/assets/img/claro.png"
           class="object-contain h-12"
           alt="Firmenlogo"
-        />
+        >
       </router-link>
       <button
         id="menuBtn"
@@ -51,7 +51,10 @@
         </svg>
       </button>
       <nav class="items-center hidden space-x-4 sm:block">
-        <router-link to="/" class="text-xl leading-normal link-animation">
+        <router-link
+          to="/"
+          class="text-xl leading-normal link-animation"
+        >
           Home
         </router-link>
         <router-link
@@ -72,13 +75,22 @@
       v-if="mobileNavMenuOpen"
       class="flex flex-col items-center flex-grow pb-4 shadow sm:hidden"
     >
-      <router-link to="/" class="text-xl leading-normal link-animation">
+      <router-link
+        to="/"
+        class="text-xl leading-normal link-animation"
+      >
         Home
       </router-link>
-      <router-link to="/products" class="text-xl leading-normal link-animation">
+      <router-link
+        to="/products"
+        class="text-xl leading-normal link-animation"
+      >
         Produkte
       </router-link>
-      <router-link to="/contact" class="text-xl leading-normal link-animation">
+      <router-link
+        to="/contact"
+        class="text-xl leading-normal link-animation"
+      >
         Kontakt
       </router-link>
     </nav>
