@@ -1,8 +1,8 @@
-# Webpage for Claro Altstätten
+# Demo-Webpage for Claro Altstätten
 
-This repository contains any files used to display the webpage for [Claro Altstätten](https://www.altstaetten-claro.ch/)
+This repository is based on the current Homepage for [Claro Altstätten](https://www.altstaetten-claro.ch/)
 
-Current Status of the repo is: **still in development** and used as a demo page without any server backend.
+Current Status of the repo is: **still in development** and used as a demo page without any server backend. It is supposed to be a school project and showcases multimedia capabilities on websites.
 
 ## Development
 
@@ -14,19 +14,15 @@ Setup Project:
 
 `yarn install`
 
-Regenerate CSS:
+Run/Deploy Vue:
 
-`yarn build:dev` or `yarn build:prod` (development or production)
-
-View Changes in Browser:
-
-`yarn watch`
+`yarn serve` or `yarn deploy` (development or production)
 
 ## Technologies used
 
-- Vue
+- Vue 2
 - Vue-Router
 - Yarn
-- TailwindCSS
+- TailwindCSS v2
 - TailwindCSS Forms
 - PostCSS
