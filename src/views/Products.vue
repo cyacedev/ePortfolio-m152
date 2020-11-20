@@ -8,16 +8,16 @@
 
 <script>
 export default {
-  name: "Products",
+  name: 'Products',
   components: {},
   metaInfo: {
-    title: "Claro Altstätten - Produkte",
+    title: 'Claro Altstätten - Produkte',
     meta: [
       {
-        name: "description",
-        content: "Produkte die im Laden antreffbar sind",
-      },
-    ],
-  },
+        name: 'description',
+        content: 'Produkte die im Laden antreffbar sind'
+      }
+    ]
+  }
 };
 </script>

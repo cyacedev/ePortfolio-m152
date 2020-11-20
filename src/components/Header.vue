@@ -4,12 +4,15 @@
     :class="{ shadow: !mobileNavMenuOpen }"
   >
     <div class="flex items-center justify-between px-4 py-4">
-      <router-link to="/">
-        <img
-          src="@/assets/img/claro.png"
-          class="object-contain h-12"
-          alt="Firmenlogo"
-        >
+      <router-link
+        to="/"
+        class="flex flex-row items-center text-3xl font-semibold"
+      >
+        <img src="@/assets/svg/logo.svg" class="w-12 h-12 mr-4" />
+        <span>
+          <a class="text-orange-500">Claro</a>
+          Altstätten
+        </span>
       </router-link>
       <button
         id="menuBtn"
@@ -17,44 +20,19 @@
         type="button"
         @click="navToggle()"
       >
-        <!-- menu icon -->
-        <svg
+        <img
           v-if="!mobileNavMenuOpen"
+          src="@/assets/svg/icons/menu.svg"
           class="w-8 h-8 fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-        <!-- Close icon -->
-        <svg
+        />
+        <img
           v-if="mobileNavMenuOpen"
+          src="@/assets/svg/icons/close.svg"
           class="w-8 h-8 fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
+        />
       </button>
       <nav class="items-center hidden space-x-4 sm:block">
-        <router-link
-          to="/"
-          class="text-xl leading-normal link-animation"
-        >
+        <router-link to="/" class="text-xl leading-normal link-animation">
           Home
         </router-link>
         <router-link
@@ -75,22 +53,13 @@
       v-if="mobileNavMenuOpen"
       class="flex flex-col items-center flex-grow pb-4 shadow sm:hidden"
     >
-      <router-link
-        to="/"
-        class="text-xl leading-normal link-animation"
-      >
+      <router-link to="/" class="text-xl leading-normal link-animation">
         Home
       </router-link>
-      <router-link
-        to="/products"
-        class="text-xl leading-normal link-animation"
-      >
+      <router-link to="/products" class="text-xl leading-normal link-animation">
         Produkte
       </router-link>
-      <router-link
-        to="/contact"
-        class="text-xl leading-normal link-animation"
-      >
+      <router-link to="/contact" class="text-xl leading-normal link-animation">
         Kontakt
       </router-link>
     </nav>
@@ -106,9 +75,9 @@ export default {
   },
   methods: {
     navToggle: function() {
-      if(this.mobileNavMenuOpen){
+      if (this.mobileNavMenuOpen) {
         this.mobileNavMenuOpen = false;
-      } else{
+      } else {
         this.mobileNavMenuOpen = true;
       }
     },

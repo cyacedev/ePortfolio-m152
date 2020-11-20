@@ -10,11 +10,11 @@
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
     Footer
@@ -30,7 +30,7 @@ export default {
 
 .link-animation::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 3px;
   top: 100%;

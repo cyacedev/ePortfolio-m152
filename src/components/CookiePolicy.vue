@@ -20,12 +20,12 @@
 
     <p>
       For more general information on cookies, please read
-      <a
-        href="https://www.cookieconsent.com/what-are-cookies/"
-      >"What Are Cookies"</a>. Information regarding cookies from this Cookies Policy are from
-      <a
-        href="https://www.generateprivacypolicy.com/"
-      >the Privacy Policy Generator</a>.
+      <a href="https://www.cookieconsent.com/what-are-cookies/"
+        >"What Are Cookies"</a
+      >. Information regarding cookies from this Cookies Policy are from
+      <a href="https://www.generateprivacypolicy.com/"
+        >the Privacy Policy Generator</a
+      >.
     </p>
 
     <p><strong>How We Use Cookies</strong></p>
@@ -49,9 +49,10 @@
       disabling certain functionality and features of the this site. Therefore
       it is recommended that you do not disable cookies. This Cookies Policy was
       created with the help of the
-      <a
-        href="https://www.cookiepolicygenerator.com/cookie-policy-generator/"
-      >Cookies Policy Generator from CookiePolicyGenerator.com</a>.
+      <a href="https://www.cookiepolicygenerator.com/cookie-policy-generator/">
+        Cookies Policy Generator from CookiePolicyGenerator.com
+      </a>
+      .
     </p>
     <p><strong>The Cookies We Set</strong></p>
 
@@ -109,6 +110,6 @@
 </template>
 <script>
 export default {
-  name: "Footer",
+  name: 'Footer'
 };
 </script>

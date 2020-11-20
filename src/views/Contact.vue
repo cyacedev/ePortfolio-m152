@@ -15,9 +15,7 @@
             <div>Montag</div>
             <div>13:30 - 18:00</div>
             <div />
-            <div class="leading-tight">
-              Dienstag <br>- Freitag
-            </div>
+            <div class="leading-tight">Dienstag <br />- Freitag</div>
             <div>09:00 - 11:30</div>
             <div>13:30 - 18:00</div>
             <div>Samstag</div>
@@ -34,9 +32,9 @@
             Adresse
           </div>
           <p class="text-base text-gray-700">
-            Claro Laden<br>
-            Marktgasse 21<br>
-            9450 Altstätten<br>
+            Claro Laden<br />
+            Marktgasse 21<br />
+            9450 Altstätten<br />
           </p>
         </div>
         <div
@@ -48,7 +46,7 @@
             Kommunikation
           </div>
           <p class="text-base text-gray-700">
-            Telefon: 0717556978<br>
+            Telefon: 0717556978<br />
             E-Mail: claro@bluewin.ch
           </p>
         </div>
@@ -106,7 +104,7 @@
                       required
                       aria-required="true"
                       type="text"
-                    >
+                    />
                   </label>
                   <label class="w-full">
                     <span class="text-gray-700">Name</span>
@@ -115,7 +113,7 @@
                       required
                       aria-required="true"
                       type="text"
-                    >
+                    />
                   </label>
                 </div>
                 <label class="block mb-2">
@@ -125,7 +123,7 @@
                     required
                     aria-required="true"
                     type="text"
-                  >
+                  />
                 </label>
                 <label class="block mb-2">
                   <span class="text-gray-700">E-Mail</span>
@@ -134,7 +132,7 @@
                     required
                     aria-required="true"
                     type="email"
-                  >
+                  />
                 </label>
                 <label class="block mb-2">
                   <span class="text-gray-700">Nachricht</span>
@@ -151,13 +149,13 @@
                     src="@/assets/svg/example-captcha.svg"
                     class="w-full sm:w-1/2"
                     alt="Captcha"
-                  >
+                  />
                   <input
                     class="block w-full mt-1 rounded form-input focus:ring-0 focus:border-orange-500"
                     required
                     aria-required="true"
                     type="text"
-                  >
+                  />
                 </label>
                 <button
                   class="px-4 py-2 mt-4 font-bold text-orange-600 bg-transparent border border-orange-600 rounded opacity-50 cursor-not-allowed hover:border-transparent hover:text-white hover:bg-orange-500"
@@ -176,16 +174,16 @@
 
 <script>
 export default {
-  name: "Contact",
+  name: 'Contact',
   components: {},
   metaInfo: {
-    title: "Claro Altstätten - Kontakt",
+    title: 'Claro Altstätten - Kontakt',
     meta: [
       {
-        name: "description",
-        content: "Kontaktinformationen von Claro Altstätten",
-      },
-    ],
-  },
+        name: 'description',
+        content: 'Kontaktinformationen von Claro Altstätten'
+      }
+    ]
+  }
 };
 </script>
