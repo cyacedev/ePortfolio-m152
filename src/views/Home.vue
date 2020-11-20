@@ -7,7 +7,7 @@
         <span class="text-orange-600">Altstätten SG</span></span>
     </div>
     <img
-      src="@/assets/img/placeholder_169.png"
+      src="@/assets/img/sunflower_smaller.jpeg"
       class="self-center mb-4 center md:h-96"
       alt="Stellvertreterbild"
     >
