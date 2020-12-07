@@ -33,7 +33,7 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   routes,
-  base: '/'
+  base: '/2020/inai4a/gruppe9/'
 });
 
 export default router;
