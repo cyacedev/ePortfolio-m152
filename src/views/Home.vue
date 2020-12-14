@@ -7,9 +7,9 @@
       >
     </div>
     <img
-      src="@/assets/img/sunflower.jpeg"
+      src="@/assets/img/sunflower.jpg"
       class="self-center mb-4 rounded center md:h-96 ring-1 ring-gray-400"
-      alt="Stellvertreterbild"
+      alt="Bild einer Sonnenblume, symbolisiert Biodiversität"
     />
     <div class="px-4 py-4 mx-4 border border-gray-400 rounded">
       <h1 class="text-2xl font-medium leading-normal text-gray-700">
