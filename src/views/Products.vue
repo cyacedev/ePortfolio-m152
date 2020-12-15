@@ -2,7 +2,9 @@
   <main class="flex-grow">
     <div class="px-4 py-4 text-center text-gray-900">
       <span class="text-3xl font-semibold">Produkte</span>
-      <div class="flex flex-col  justify-center md:flex-row">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center md:flex-row"
+      >
         <div
           class="text-left sm:p-4 m-2 sm:m-4 sm:border sm:border-gray-400 sm:rounded"
         >
@@ -44,20 +46,19 @@
             Clementinenbestellung während dem Dezember.
           </span>
         </div>
-
         <div
-          class="text-left sm:p-4 m-2 sm:m-4 sm:border sm:border-gray-400 sm:rounded"
+          class="text-left sm:col-span-2 lg:col-span-1 sm:p-4 m-2 sm:m-4 sm:border sm:border-gray-400 sm:rounded"
         >
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/KM_f-gbFRLU?rel=0"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            class="self-center mb-4 rounded center ring-1 ring-gray-400 w-full md:h-96"
-            alt="Video das die Nutzung von Offenverkauf von Produkten zeigt"
-          ></iframe>
+          <div class="videoResponsive">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/KM_f-gbFRLU?rel=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="mb-4 rounded center ring-1 ring-gray-400"
+              alt="Video das die Nutzung von Offenverkauf von Produkten zeigt"
+            ></iframe>
+          </div>
           <div
             class="mt-4 text-xl font-bold leading-normal text-gray-900 sm:mb-2 sm:mt-0"
           >
@@ -91,3 +92,21 @@ export default {
   }
 };
 </script>
+
+<style>
+.videoResponsive {
+  padding-bottom: 56.25%;
+  height: 0;
+  position: relative;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.videoResponsive iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
