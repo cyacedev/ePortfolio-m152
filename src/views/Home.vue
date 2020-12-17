@@ -12,13 +12,13 @@
       alt="Bild einer Sonnenblume, symbolisiert Biodiversität"
     />
     <div
-      class="px-4 py-4 mx-4 border border-gray-400 rounded self-center lg:w-6/12"
+      class="sm:p-4 m-2 sm:m-4 sm:border border-gray-400 rounded self-center lg:w-6/12"
     >
       <h1 class="text-2xl font-medium leading-normal text-gray-700">
         Wer sind wir?
       </h1>
-      <span
-        >Der Claro Laden in Altstätten verfügt über ein grosses und vielfältiges
+      <span class="text-base">
+        Der Claro Laden in Altstätten verfügt über ein grosses und vielfältiges
         Sortiment in den Bereichen der Fairtrade und Bio-Produkte. Bei uns
         werden sie persönlich und kundenfreundlich bedient und erhalten
         Informationen zu den Produkten und dessen Produzenten.

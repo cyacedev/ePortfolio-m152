@@ -22,27 +22,4 @@ export default {
 };
 </script>
 
-<style>
-.link-animation {
-  position: relative;
-  transition: 0.5s;
-}
-
-.link-animation::after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 3px;
-  top: 100%;
-  left: 0;
-  @apply bg-orange-600;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
-}
-
-.link-animation:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-</style>
+<style></style>

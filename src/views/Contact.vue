@@ -6,12 +6,10 @@
         <div
           class="text-left sm:p-4 sm:m-4 sm:border sm:border-gray-400 sm:rounded"
         >
-          <div
-            class="mt-4 text-xl font-bold leading-normal text-gray-900 sm:mb-2 sm:mt-0"
-          >
+          <h1 class="text-2xl font-medium leading-normal text-gray-700">
             Unsere Öffnungszeiten
-          </div>
-          <div class="grid grid-cols-3 gap-1 text-gray-700">
+          </h1>
+          <div class="grid grid-cols-3 gap-1">
             <div>Montag</div>
             <div>13:30 - 18:00</div>
             <div />
@@ -26,12 +24,10 @@
         <div
           class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
         >
-          <div
-            class="mt-4 text-xl font-bold leading-normal text-gray-900 sm:mb-2 sm:mt-0"
-          >
+          <h1 class="text-2xl font-medium leading-normal text-gray-700">
             Adresse
-          </div>
-          <p class="text-base text-gray-700">
+          </h1>
+          <p class="text-base">
             Claro Laden<br />
             Marktgasse 21<br />
             9450 Altstätten<br />
@@ -40,12 +36,10 @@
         <div
           class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
         >
-          <div
-            class="mt-4 text-xl font-bold leading-normal text-gray-900 sm:mt-0 sm:mb-2"
-          >
+          <h1 class="text-2xl font-medium leading-normal text-gray-700">
             Kommunikation
-          </div>
-          <p class="text-base text-gray-700">
+          </h1>
+          <p class="text-base">
             Telefon: 0717556978<br />
             E-Mail: claro@bluewin.ch
           </p>
@@ -56,11 +50,9 @@
           <div
             class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
           >
-            <div
-              class="mt-4 text-xl font-bold leading-normal text-gray-900 sm:mb-2 sm:mt-0"
-            >
+            <h1 class="text-2xl font-medium leading-normal text-gray-700">
               Standort
-            </div>
+            </h1>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d567.9739742749599!2d9.539599611407855!3d47.37770464928544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x174d4210adafe31!2sClaro%20Weltladen!5e0!3m2!1sen!2sch!4v1601880226732!5m2!1sen!2sch"
               width="288"
@@ -77,11 +69,9 @@
           <div
             class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
           >
-            <div
-              class="mt-4 text-xl font-bold leading-normal text-gray-900 sm:mb-2 sm:mt-0"
-            >
+            <h1 class="text-2xl font-medium leading-normal text-gray-700">
               Kontaktformular
-            </div>
+            </h1>
             <div>
               <div
                 class="p-4 text-orange-700 bg-orange-100 border-l-4 border-orange-500"

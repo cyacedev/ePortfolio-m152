@@ -29,18 +29,21 @@
         />
       </button>
       <nav class="items-center hidden space-x-4 sm:block">
-        <router-link to="/" class="text-xl leading-normal link-animation">
+        <router-link
+          to="/"
+          class="text-xl leading-normal hover:text-orange-600"
+        >
           Home
         </router-link>
         <router-link
           to="/products"
-          class="text-xl leading-normal link-animation"
+          class="text-xl leading-normal hover:text-orange-600"
         >
           Produkte
         </router-link>
         <router-link
           to="/contact"
-          class="text-xl leading-normal link-animation"
+          class="text-xl leading-normal hover:text-orange-600"
         >
           Kontakt
         </router-link>
@@ -51,18 +54,21 @@
         v-if="mobileNavMenuOpen"
         class="flex flex-col items-center flex-grow pb-4 shadow sm:hidden"
       >
-        <router-link to="/" class="text-xl leading-normal link-animation">
+        <router-link
+          to="/"
+          class="text-xl leading-normal hover:text-orange-600"
+        >
           Home
         </router-link>
         <router-link
           to="/products"
-          class="text-xl leading-normal link-animation"
+          class="text-xl leading-normal hover:text-orange-600"
         >
           Produkte
         </router-link>
         <router-link
           to="/contact"
-          class="text-xl leading-normal link-animation"
+          class="text-xl leading-normal hover:text-orange-600"
         >
           Kontakt
         </router-link>
