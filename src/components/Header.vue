@@ -1,9 +1,6 @@
 <template>
-  <header
-    class="sticky top-0 flex-col text-gray-900 bg-white"
-    :class="{ shadow: !mobileNavMenuOpen }"
-  >
-    <div class="flex items-center justify-between px-4 py-4">
+  <header class="sticky top-0 flex-col text-gray-900 bg-white">
+    <div class="flex items-center justify-between px-4 py-4 shadow">
       <router-link
         to="/"
         class="flex flex-row items-center text-3xl font-semibold"
@@ -49,20 +46,28 @@
         </router-link>
       </nav>
     </div>
-    <nav
-      v-if="mobileNavMenuOpen"
-      class="flex flex-col items-center flex-grow pb-4 shadow sm:hidden"
-    >
-      <router-link to="/" class="text-xl leading-normal link-animation">
-        Home
-      </router-link>
-      <router-link to="/products" class="text-xl leading-normal link-animation">
-        Produkte
-      </router-link>
-      <router-link to="/contact" class="text-xl leading-normal link-animation">
-        Kontakt
-      </router-link>
-    </nav>
+    <transition name="slide">
+      <nav
+        v-if="mobileNavMenuOpen"
+        class="flex flex-col items-center flex-grow pb-4 shadow sm:hidden"
+      >
+        <router-link to="/" class="text-xl leading-normal link-animation">
+          Home
+        </router-link>
+        <router-link
+          to="/products"
+          class="text-xl leading-normal link-animation"
+        >
+          Produkte
+        </router-link>
+        <router-link
+          to="/contact"
+          class="text-xl leading-normal link-animation"
+        >
+          Kontakt
+        </router-link>
+      </nav>
+    </transition>
   </header>
 </template>
 
@@ -70,7 +75,7 @@
 export default {
   data: function() {
     return {
-      mobileNavMenuOpen: false,
+      mobileNavMenuOpen: false
     };
   },
   methods: {
@@ -80,9 +85,21 @@ export default {
       } else {
         this.mobileNavMenuOpen = true;
       }
-    },
-  },
+    }
+  }
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.26s ease;
+  transform-origin: top;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: scaleY(0);
+  transform-origin: top;
+}
+</style>

@@ -95,7 +95,7 @@ export default {
 
 <style>
 .videoResponsive {
-  padding-bottom: 56.25%;
+  padding-bottom: 56.25%; /* Ratio of 16:9 */
   height: 0;
   position: relative;
   padding-top: 30px;
