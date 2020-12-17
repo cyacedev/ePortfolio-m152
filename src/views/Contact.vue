@@ -51,7 +51,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-row flex-wrap justify-center">
+      <div class="flex flex-row flex-wrap sm:justify-center">
         <div>
           <div
             class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
