@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /2020/inai4a/gruppe9
+RewriteRule ^2020/inai4a/gruppe9/index.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ./2020/inai4a/gruppe9/index.html [L]
+</IfModule>

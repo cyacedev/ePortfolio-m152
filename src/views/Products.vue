@@ -92,7 +92,6 @@ export default {
   padding-bottom: 56.25%; /* Ratio of 16:9 */
   height: 0;
   position: relative;
-  padding-top: 30px;
   overflow: hidden;
 }
 

@@ -31,7 +31,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   routes,
   base: '/2020/inai4a/gruppe9/'
 });
