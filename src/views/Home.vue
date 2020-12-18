@@ -8,7 +8,7 @@
     </div>
     <img
       src="@/assets/img/sunflower.jpg"
-      class="self-center mb-4 rounded center lg:w-6/12 ring-1 ring-gray-400"
+      class="self-center sm:mb-4 rounded center lg:w-6/12 ring-1 ring-gray-400"
       alt="Bild einer Sonnenblume, symbolisiert Biodiversität"
     />
     <div

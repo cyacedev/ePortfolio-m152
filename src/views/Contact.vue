@@ -4,7 +4,7 @@
       <span class="text-3xl font-semibold">Kontakt</span>
       <div class="flex flex-col flex-wrap justify-center sm:flex-row">
         <div
-          class="text-left sm:p-4 sm:m-4 sm:border sm:border-gray-400 sm:rounded"
+          class="text-left mb-2 sm:p-4 sm:m-4 sm:border sm:border-gray-400 sm:rounded"
         >
           <h1 class="text-2xl font-medium leading-normal text-gray-700">
             Unsere Öffnungszeiten
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div
-          class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
+          class="text-left mb-2 border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
         >
           <h1 class="text-2xl font-medium leading-normal text-gray-700">
             Adresse
@@ -34,7 +34,7 @@
           </p>
         </div>
         <div
-          class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
+          class="text-left mb-2 border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
         >
           <h1 class="text-2xl font-medium leading-normal text-gray-700">
             Kommunikation
@@ -48,7 +48,7 @@
       <div class="flex flex-row flex-wrap sm:justify-center">
         <div>
           <div
-            class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
+            class="text-left mb-2 border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
           >
             <h1 class="text-2xl font-medium leading-normal text-gray-700">
               Standort
@@ -67,7 +67,7 @@
         </div>
         <div>
           <div
-            class="text-left border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
+            class="text-left mb-2 border-gray-400 sm:p-4 sm:m-4 sm:border sm:rounded"
           >
             <h1 class="text-2xl font-medium leading-normal text-gray-700">
               Kontaktformular
